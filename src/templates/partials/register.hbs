@@ -1,0 +1,25 @@
+ <section class="registration">
+        <h2>Registration Form</h2>
+        <div class="registration-container container">
+            <form action="/registration" method="post" id="form">
+               <input type="text" placeholder="First Name" name="firstname" id="fname">
+               <input type="text" placeholder="Last Name" name="lastname" id="lname">
+               <input type="email" placeholder="Email" name="email" id="email">
+               <input type="phone" placeholder="Phone" name="phone" id="phone">
+               <input type="password" placeholder="Password" name="password" id="password">
+               <input type="password" placeholder="Confirmed Password"  name="confirmedPassword">
+                 <label for="gender" class="gender">Gender</label>
+               <div class="check">
+                 <label for="male" class="male">Male</label>
+               <input type="checkbox" id="male" name="gender" value="male" >
+               <label for="female" class="female">Female</label>
+               <input type="checkbox" id="female" name="gender" value="female">
+               </div>
+               <div class="buttons">
+                <button class=" btn"><a href="login">Login</a></button>
+               <button type="submit" class="register btn" value="submit" id="registerPage">Registration</button>
+               </div>
+               
+            </form>
+        </div>
+    </section>
