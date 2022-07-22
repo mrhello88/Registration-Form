@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node MernBackend/src/App.js",
+    "start": "node src/App.js",
     "dev": "nodemon src/App.js -e js,hbs,sass"
   },
   "keywords": [],
