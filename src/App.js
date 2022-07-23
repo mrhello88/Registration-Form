@@ -4,8 +4,8 @@ const app = express();
 const router = require("./Router/Router");
 require('./db/DataBase');
 const hbs = require("hbs")
-const path = require("path");
 const port  = process.env.Port  || 5000;
+const path = require("path");
 const partials = path.join(__dirname,'./templates/partials');
 const views = path.join(__dirname,'./templates/views');
 const publicCssPath = path.join(__dirname,'../public/css');
