@@ -29,7 +29,7 @@ const Scehma = new mongoose.Schema({
     type: Number,
     required:true,
     min:[11,"less than 11"],
-    // max:[11,"greater than 11"],
+    // max:[11,"greater than 11"], 
   },
   confirmedPassword: {
     type: String,
